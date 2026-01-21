@@ -1,4 +1,4 @@
-name = "aoju-ai-fronter"
+name = "aoju-ai-frontier"
 pages_build_output_dir = "dist"
 
 [vars]

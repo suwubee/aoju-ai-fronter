@@ -15,7 +15,7 @@
               mono: ['JetBrains Mono', 'monospace'],
             },
             colors: {
-              'ai-dark': '#050b14', /* Darker, deeper blue-black */
+              'ai-dark': '#050b14',
               'ai-card': 'rgba(10, 15, 30, 0.4)',
               'neon-cyan': '#00f2ff',
               'neon-purple': '#bd00ff',
@@ -99,6 +99,8 @@
 </head>
   <body>
     <div id="root"></div>
+    <!-- 生产环境入口，deploy.sh 会将 TS 编译为 index.js -->
+    <script type="module" src="./index.js"></script>
   <script type="module" src="/index.tsx"></script>
 </body>
 </html>
